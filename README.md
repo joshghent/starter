@@ -6,8 +6,16 @@ If you're new to Git then you've come to the right place. By the end of the pres
 If you're already familiar with Git, skip to this section
 
 ## How do I start?
-* Copy the URL of the repository by clicking "Clone or Download"
-* 
+* Click the "Fork" button
+* After the fork is complete, copy the URL of the repository by clicking "Clone or Download"
+* Run the command `git clone https://github.com/GITHUB_USERNAME/starter.git` in your terminal
+* Open the folder in your favourite editor
+* Add your name to the CONTRIBUTORS.md file
+* Go back in your terminal and add your files, commit them and then push them!
+  - e.g., `git add -A && git commit -m "Feature Added My Name!" && git push -u origin master`
+* Go to your forked repository in your browser (e.g., https://github.com/GITHUB_USERNAME/starter)
+* Click the "Pull Request" button - just under the "Clone or Download" button
+* Submit your Pull Request!
 
 ## Now what?
 
@@ -19,15 +27,16 @@ Depending on the language you use, there are some projects you can contribute to
 ### Find Projects of Any Language
 
 ### NodeJS
-
-### React
+- FreecodeCamp - https://github.com/freeCodeCamp/freeCodeCamp
+- Parcel - https://github.com/parcel-bundler/parcel
 
 ### Java
+- RxJava - https://github.com/ReactiveX/RxJava
+- Generator JHipster - https://github.com/jhipster/generator-jhipster
 
 ### Python
-
-### .NET Core
-
+- TensorFlow - https://github.com/tensorflow/tensorflow
+- Make a twitter bot! - https://www.freecodecamp.org/news/creating-a-twitter-bot-in-python-with-tweepy-ac524157a607/
 
 ## Further Reading
 * Git Flow - this is a branching strategy used by most companies and open source projects, it's worth learning this
